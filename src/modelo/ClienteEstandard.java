@@ -1,0 +1,29 @@
+package modelo;
+
+public class ClienteEstandard extends Cliente{
+
+	public ClienteEstandard(String nombre, String domicilio, String email, String nif) {
+		super(nombre, domicilio, email, nif);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String tipoCliente() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public float calcAnual() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public float deseucntoEnv() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+
+}
